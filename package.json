@@ -1,0 +1,26 @@
+{
+  "name": "mobx-github-search",
+  "version": "1.0.0",
+  "description": "A simple mobx demo that searches things on github.",
+  "scripts": {
+    "start": "parcel ./public/index.html --open",
+    "lint": "tslint -c tslint.json -p tsconfig.json",
+    "build": "parcel build ./public/index.html --public-url ./ --no-cache"
+  },
+  "author": "shadeofgod <zoubingwu@gmail.com> (https://github.com/shadeofgod)",
+  "license": "MIT",
+  "repository": "https://github.com/shadeofgod/mobx-github-search",
+  "devDependencies": {
+    "parcel-bundler": "^1.6.2",
+    "tslint": "^5.9.1",
+    "tslint-react": "^3.5.1",
+    "typescript": "^2.7.2"
+  },
+  "dependencies": {
+    "@types/react": "^16.0.38",
+    "@types/react-dom": "^16.0.4",
+    "mobx": "^3.6.1",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0"
+  }
+}
