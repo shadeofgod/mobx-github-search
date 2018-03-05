@@ -2,9 +2,7 @@
   "extends": ["tslint:latest", "tslint-react"],
   "rules": {
     "max-line-length": {
-      "options": [
-        120
-      ]
+      "options": [120]
     },
     "new-parens": true,
     "no-arg": true,
@@ -13,13 +11,18 @@
     "no-consecutive-blank-lines": false,
     "quotemark": [true, "single", "jsx-double"],
     "semicolon": [true, "never"],
-    "member-access": [true, "no-public"]
+    "member-access": [true, "no-public"],
+    "ordered-imports": [
+      true,
+      {
+        "import-sources-order": "any",
+        "named-imports-order": "any"
+      }
+    ]
   },
   "jsRules": {
     "max-line-length": {
-      "options": [
-        120
-      ]
+      "options": [120]
     }
   }
 }
