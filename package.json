@@ -5,7 +5,7 @@
   "scripts": {
     "start": "parcel ./public/index.html --open",
     "lint": "tslint -c tslint.json -p tsconfig.json",
-    "build": "parcel build ./public/index.html --public-url ./ --no-cache"
+    "build": "parcel build ./public/index.html --public-url ./"
   },
   "author": "shadeofgod <zoubingwu@gmail.com> (https://github.com/shadeofgod)",
   "license": "MIT",
